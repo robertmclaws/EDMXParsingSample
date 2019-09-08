@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EntityDeploy Remove="EntityModel.edmx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.3.0-preview9-19423-04" />
+    <PackageReference Include="System.CodeDom" Version="4.6.0-preview9.19421.4" />
+  </ItemGroup>
+
+</Project>
